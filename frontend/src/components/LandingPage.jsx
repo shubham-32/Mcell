@@ -1,7 +1,7 @@
 import React from "react";
 import { ArrowRight, User, PenTool, Crown, Clock, BarChart3, CheckCircle } from 'lucide-react';
 import { Link } from "react-router-dom";
-import Login from "./login";
+import Login from "./Login";
 import Signup from "./Signup";
 import Header from "./Header";
 import { useAuthStore } from "../store/useAuthStore";
