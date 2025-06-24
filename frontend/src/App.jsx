@@ -1,6 +1,6 @@
 import { Navigate, Route, Routes } from "react-router-dom";
 import React from 'react';
-import Login from "./components/login";
+import Login from "./components/Login";
 import Signup from "./components/Signup";
 import User from "./components/User";
 import Admin from "./components/Admin";
@@ -8,8 +8,7 @@ import Engineer from "./components/Engineer";
 import { useAuthStore } from "./store/useAuthStore";
 import { useEffect } from "react";
 import LandingPage from "./components/LandingPage";
-import { Toaster } from "react-hot-toast";
-import SubmitComplain from "./components/submitComplain";
+import SubmitComplain from "./components/SubmitComplain";
 function App() {
 
 	const { isCheckingAuth, checkAuth , user , isAuthenticated } = useAuthStore();
